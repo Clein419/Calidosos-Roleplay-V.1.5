@@ -17,4 +17,4 @@ jobs:
           -d '{
             "content": "**Nuevo commit en el repo**\nAutor: ${{ github.actor }}\nMensaje: ${{ github.event.head_commit.message }}"
           }' \
-          YOUR_WEBHOOK_URL
+          https://discord.com/api/webhooks/1505941544484732968/fBpppkno7QOwcEpUQAUuPozDGyHccwfvIAp1ySBAbUqPxJc41FxGa370YiCxz0SL_wgN
