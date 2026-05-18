@@ -3,3 +3,6 @@ Soy El Programador Y 2do Dueño de Calidosos Roleplay , Calidosos Roleplay Es Un
 # Calidosos Roleplay
 Nuevos Comandos En Saem y Nuevas Haciendas en los Filterscripts.
 Se Añadio /marketplace para que puedan vender sus autos Online (IC).
+git add .
+git commit -m "Sistema nuevo"
+git push
