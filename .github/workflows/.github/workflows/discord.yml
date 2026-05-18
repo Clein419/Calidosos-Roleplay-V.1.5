@@ -1,0 +1,20 @@
+name: Discord Commits
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send Discord Message
+        run: |
+          curl -H "Content-Type: application/json" \
+          -X POST \
+          -d '{
+            "content": "**Nuevo commit en el repo**\nAutor: ${{ github.actor }}\nMensaje: ${{ github.event.head_commit.message }}"
+          }' \
+          YOUR_WEBHOOK_URL
